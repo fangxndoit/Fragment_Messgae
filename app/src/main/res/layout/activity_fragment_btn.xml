@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_fragment_btn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.fragment_messgae.Fragment_btn">
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="显示第一个信息"
+    android:id="@+id/frist_btn"
+    android:gravity="center"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示第二个信息"
+        android:id="@+id/second_btn"
+        android:gravity="center"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示第三个信息"
+        android:id="@+id/thrid_btn"
+        android:gravity="center"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示第四个信息"
+        android:id="@+id/fourth_btn"
+        android:gravity="center"/>
+</LinearLayout>
